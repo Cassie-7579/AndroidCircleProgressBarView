@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="NewCircleProView">
+        <!-- 当前进度条值-->
+        <attr name="value" format="integer" />
+        <!-- 进度条可走最大值-->
+        <attr name="maxUseValue" format="integer" />
+        <!-- 进度条最大值-->
+        <attr name="maxValue" format="integer" />
+        <!-- 进度条宽度-->
+        <attr name="proWidth" format="dimension" />
+        <!-- 进度条和父体的padding-->
+        <attr name="proPadding" format="dimension" />
+        <!-- 提示字体大小-->
+        <attr name="hintTextSize" format="dimension" />
+        <!-- 值字体大小-->
+        <attr name="valueTextSize" format="dimension" />
+        <!-- 提示字体颜色-->
+        <attr name="hintTextColor" format="color" />
+        <!-- 值字体颜色-->
+        <attr name="valueTextColor" format="color" />
+         <!-- 提示文字-->
+        <attr name="hideText" format="string" />
+
+    </declare-styleable>
+</resources>
